@@ -41,6 +41,7 @@ To deploy me on heroku, use below button:
 
 ### Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Rose-Bot-Model)
+
 There is also a [tutorial video](---------) if you want any help on creating heroku clone.
 
 ## Starting the bot.
