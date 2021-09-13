@@ -41,7 +41,6 @@ Hey there! My name is *{}*.
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
  - /donate: information about how to donate!
  - /settings:
    - in PM: will send you your settings for all supported modules.
@@ -52,7 +51,7 @@ And the following:
 
 DONATE_STRING = """ *🙋‍♂️Hello Bro or Sis*!
 
-*😎Contect @Mrk_YT*
+*😎Contect @VAMPIRE_KING_NO_1*
 
 *👉Clcik 👉 /donate*
 """
