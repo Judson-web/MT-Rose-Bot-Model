@@ -27,10 +27,9 @@ PM_START_TEXT = """
 
 *എന്റെ അപ്ഡേറ്റുകളെക്കുറിച്ചും പ്രവർത്തനത്തെപറ്റിയും അറിയുവാൻ അപ്ഡേറ്റ് ചാനൽ സബ്സ്ക്രൈബ് ചെയ്യുക.*
 
-*ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ /help അമർത്തുക.*
+*ലഭ്യമായ കമാന്റുകളെപ്പറ്റി അറിയുവാൻ  /help അമർത്തുക.*
 
 /info - 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 👩‍
-/repo - 𝒎𝒚 𝒃𝒓𝒂𝒊𝒏 🧠
 
 ᗴᗪᎥ丅ᗴᗪ ᗷƳ: @Beluga100000
 """
@@ -152,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⭕️ Command Help ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="📢Updates", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️Source Code", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Credits", url="t.me/VAMPIRE_KING_NO_1")],
+                     [InlineKeyboardButton(text="📢Updates", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️Source Code", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Owner", url="t.me/professorforreveal12")],
                      [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
