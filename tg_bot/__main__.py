@@ -35,7 +35,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-Hey There 🙂,! My name is *{}*.
+Hey There,! My name is *{}* 🙂.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -202,7 +202,7 @@ def help_button(bot: Bot, update: Update):
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="😀 Back 😀", callback_data="help_back")]]))
+                                         [[InlineKeyboardButton(text="◀️ Back ◀️", callback_data="help_back")]]))
 
         elif prev_match:
             curr_page = int(prev_match.group(1))
@@ -256,7 +256,7 @@ def get_help(bot: Bot, update: Update):
         module = args[1].lower()
         text = "Here is the available help for the *{}* module:\n".format(HELPABLE[module].__mod_name__) \
                + HELPABLE[module].__help__
-        send_help(chat.id, text, InlineKeyboardMarkup([[InlineKeyboardButton(text="😀 Back 😀", callback_data="help_back")]]))
+        send_help(chat.id, text, InlineKeyboardMarkup([[InlineKeyboardButton(text="◀️ Back ◀️", callback_data="help_back")]]))
 
     else:
         send_help(chat.id, HELP_STRINGS)
@@ -307,7 +307,7 @@ def settings_button(bot: Bot, update: Update):
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="😀 Back 😀",
+                                         [[InlineKeyboardButton(text="◀️ Back ◀️",
                                                                 callback_data="stngs_back({})".format(chat_id))]]))
 
         elif prev_match:
