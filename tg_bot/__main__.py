@@ -31,7 +31,7 @@ PM_START_TEXT = """
 
 /info - 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 👩‍
 
-ᗴᗪᎥ丅ᗴᗪ ᗷƳ: @Beluga100000
+ᗴᗪᎥ丅ᗴᗪ ᗷƳ: [ᗪᗩᖇK ✞Oᖇᗪ](t.me/VAMPIRE_KING_NO_1)
 """
 
 HELP_STRINGS = """
