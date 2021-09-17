@@ -153,6 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="⭕️ Command Help ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
                      [InlineKeyboardButton(text="📢Updates", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️Source Code", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Owner", url="t.me/professorforreveal12")],
                      [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="Editor", url="t.me/VAMPIRE_KING_NO_1")) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
