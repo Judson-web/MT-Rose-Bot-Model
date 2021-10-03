@@ -40,7 +40,7 @@ Alternatively, [find me on telegram](https://t.me/Beluga100000)! (Keep all suppo
 To deploy me on heroku, use below button:
 
 ### Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Rose-Bot-Model)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/MT-Rose-Bot-Model)
 
 There is also a [tutorial video](---------) if you want any help on creating heroku clone.
 
