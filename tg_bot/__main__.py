@@ -45,7 +45,7 @@ the things I can help you with.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
-   - Plz dont spam me (Me Means Iam *{}* 😊)
+   - Plz dont spam me (Me Means Iam 😊)
 
 {}
 And the following:
