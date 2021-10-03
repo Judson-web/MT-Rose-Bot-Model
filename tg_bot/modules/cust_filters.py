@@ -93,8 +93,8 @@ def filters(bot: Bot, update: Update):
                 f"You currently have {total_fs} filters. "
                 f"The maximum number of filters allowed is {BMERNU_SCUT_SRELFTI}. "
                 "You need to delete some filters "
-                "Content @Mo_Tech_Group"
-                "Bot Update @Mo_Tech_YT"
+                "Content @storytym"
+                "Bot Update @storytimeoG"
             )
             return
 
@@ -213,10 +213,10 @@ def stop_filter(bot: Bot, update: Update):
     for keyword in chat_filters:
         if keyword == args[1]:
             sql.remove_filter(chat_id, args[1])
-            update.effective_message.reply_text("Yep, I'll stop replying to that in *{}*.".format(chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
+            update.effective_message.reply_text("Bruh, i'll stop replying to that in *{}*.".format(chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
             raise DispatcherHandlerStop
 
-    update.effective_message.reply_text("That's not a current filter - run /filters for all active filters.")
+    update.effective_message.reply_text("Bruh that's not a current filter - run /filters for all active filters.")
 
 
 @run_async
@@ -367,6 +367,10 @@ doin?
  - /stop <filter keyword>: stop that filter.
 *Chat creator only:*
  - /removeallfilters: Stop all filters in chat at once (Limited to creators only).
+ 
+  ᗴᗪᎥ丅ᗴᗪ ᗷƳ: [ᗪᗩᖇK ✞Oᖇᗪ](t.me/VAMPIRE_KING_NO_1)
+
+ 
 
 """
 
