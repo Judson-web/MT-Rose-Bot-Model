@@ -151,9 +151,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="⭕️ Command Help ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="📢Updates", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️Source Code", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Owner", url="t.me/professorforreveal12")],
-                     [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="⭕️ 𝘊𝘰𝘮𝘮𝘢𝘯𝘥 𝘏𝘦𝘭𝘱 ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
+                     [InlineKeyboardButton(text="😎 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Owner", url="t.me/xxxtentacionn12")],
+                     [InlineKeyboardButton(text="➕ 𝓐𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹 ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
@@ -245,9 +245,9 @@ def get_help(bot: Bot, update: Update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
+        update.effective_message.reply_text("Bruh Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="😇 Help 😇",
+                                                [[InlineKeyboardButton(text="😇 ᕼᗴᒪᑭ 😇",
                                                                        url="t.me/{}?start=help".format(
                                                                            bot.username))]]))
         return
@@ -256,7 +256,7 @@ def get_help(bot: Bot, update: Update):
         module = args[1].lower()
         text = "Here is the available help for the *{}* module:\n".format(HELPABLE[module].__mod_name__) \
                + HELPABLE[module].__help__
-        send_help(chat.id, text, InlineKeyboardMarkup([[InlineKeyboardButton(text="◀️ Back ◀️", callback_data="help_back")]]))
+        send_help(chat.id, text, InlineKeyboardMarkup([[InlineKeyboardButton(text="🖤ᗷᗩᑕᛕ🖤", callback_data="help_back")]]))
 
     else:
         send_help(chat.id, HELP_STRINGS)
@@ -307,7 +307,7 @@ def settings_button(bot: Bot, update: Update):
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="◀️ Back ◀️",
+                                         [[InlineKeyboardButton(text="🖤ᗷᗩᑕᛕ🖤",
                                                                 callback_data="stngs_back({})".format(chat_id))]]))
 
         elif prev_match:
@@ -363,14 +363,14 @@ def get_settings(bot: Bot, update: Update):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "Bruh Click here to get this chat's settings, as well as yours."
             msg.reply_text(text,
                            reply_markup=InlineKeyboardMarkup(
-                               [[InlineKeyboardButton(text="⚙️ Settings ⚙️",
+                               [[InlineKeyboardButton(text="⚙️ 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨 ⚙️",
                                                       url="t.me/{}?start=stngs_{}".format(
                                                           bot.username, chat.id))]]))
         else:
-            text = "Click here to check your settings."
+            text = "Bruh Click here to check your settings."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -385,8 +385,8 @@ def donate(bot: Bot, update: Update):
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
         if OWNER_ID != 254318997 and DONATION_LINK:
-            update.effective_message.reply_text("**You can also donate to the person currently running me** "
-                                                "[👤here]({})".format(DONATION_LINK),
+            update.effective_message.reply_text("**Hmm Bruh/Sis You can also donate to my owner 😎** "
+                                                "[😎 OWNER]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
 
     else:
