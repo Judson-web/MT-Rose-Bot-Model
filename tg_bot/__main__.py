@@ -35,24 +35,23 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-Hey There,! My name is *{}* 🙂.
+Hey There Bro/Sis,! I'am *{}* 🙂.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
  - /donate: information about how to donate!
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
-   
-   ᗴᗪᎥ丅ᗴᗪ ᗷƳ: [ᗪᗩᖇK ✞Oᖇᗪ](t.me/VAMPIRE_KING_NO_1)
+   - Plz dont spam me (Me Means Iam *{}* 😊)
 
 {}
 And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
-
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or ! bla bla bla.\n")
+   
+    
 DONATE_STRING = DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my editor](t.me/VAMPIRE_KING_NO_1) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
