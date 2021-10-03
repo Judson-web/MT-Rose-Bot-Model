@@ -46,6 +46,9 @@ the things I can help you with.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
+   
+   ᗴᗪᎥ丅ᗴᗪ ᗷƳ: [ᗪᗩᖇK ✞Oᖇᗪ](t.me/VAMPIRE_KING_NO_1)
+
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -152,7 +155,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⭕️ 𝘊𝘰𝘮𝘮𝘢𝘯𝘥 𝘏𝘦𝘭𝘱 ⭕️", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="😎 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="🤠Owner", url="t.me/xxxtentacionn12")],
+                     [InlineKeyboardButton(text="😎 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="t.me/PRIMER_ROOM"), InlineKeyboardButton(text="❣️Sₒᵤᵣ𝚌ₑ Cₒ𝚍ₑ", url="https://t.me/NOKIERUNNOIPPKITTUM"), InlineKeyboardButton(text="👑𝙊𝙬𝙣𝙚𝙧", url="t.me/xxxtentacionn12")],
                      [InlineKeyboardButton(text="➕ 𝓐𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹 ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
@@ -202,7 +205,7 @@ def help_button(bot: Bot, update: Update):
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="◀️ Back ◀️", callback_data="help_back")]]))
+                                         [[InlineKeyboardButton(text="🖤ᗷᗩᑕᛕ🖤", callback_data="help_back")]]))
 
         elif prev_match:
             curr_page = int(prev_match.group(1))
@@ -386,7 +389,7 @@ def donate(bot: Bot, update: Update):
 
         if OWNER_ID != 254318997 and DONATION_LINK:
             update.effective_message.reply_text("**Hmm Bruh/Sis You can also donate to my owner 😎** "
-                                                "[😎 OWNER]({})".format(DONATION_LINK),
+                                                "[😎Owner]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
 
     else:
